@@ -1,0 +1,39 @@
+.wrap {
+    display: flex;
+    flex-direction: row;
+    width: 1980px;
+    height: 1080px;
+    margin: auto;  
+}
+
+.side-bar {
+    background-color:rgba(0, 110, 255, 0.459);
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-bar {
+    background-color:rgba(255, 0, 60, 0.587);
+    height: 500px;
+    width: 1530px;
+}
+
+.button-bar {
+    display: flex;
+    width: 400px;
+    background-color: aqua;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.search-bar {
+    width: 350px;
+    height: 20px;
+    
+}
+
+.search-bar-button {
+    width: 50px;
+}
